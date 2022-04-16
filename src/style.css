@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+  font-family: Papyrus;
+  color: white;
+  content-align:center;
+}
+h1{
+  text-align:center;
+  color:black;
+  font-family: verdana;
+}
+ h2{
+  float:right;
+  margin: 10px; 
+  color: red;
+  font-family: Verdana;
+}
+
+.box1{
+  width:98%;
+  background:black;
+  padding: 10px;
+  margin: 10px;
+  border:solid 2px red;
+  clear:left;
+}
+
+.box2{
+  width:98%;
+  background:black;
+  padding: 10px;
+  margin: 10px;
+  border:solid 2px red;
+}
+
+.box3{
+  width:98%;
+  background:black;
+  padding: 10px;
+  margin: 10px;
+  border:solid 2px red;
+}
+
+@media only screen and (min-width: 768px){
+
+ .box1{
+  display: inline-block;
+  width:47%;
+  height:250px;
+  background:black;
+  padding: 10px;
+  margin: 10px;
+  border:solid 2px red;
+  float:right;
+}
+
+.box2{
+  display: inline-block;
+  width:47%;
+  height:250px;
+  background:black;
+  padding: 10px;
+  margin: 10px;
+  border:solid 2px red;
+}
+
+.box3{
+  display: inline-block;
+  width:98%;
+  height:250px;
+  background:black;
+  padding: 10px;
+  margin: 10px;
+  border:solid 2px red;
+  float:left;
+  
+}
+  
+}
+
+@media only screen and (min-width: 992px){
+  .row{
+    align-content: center;
+  }
+ 
+  .box1{
+  width:31%;
+  height:250px;
+  background:black;
+  padding: 10px;
+  margin: 10px;
+  border:solid 2px red;
+  float:right;
+  display: inline;
+}
+
+.box2{
+  width:31%;
+  height:250px;
+  background:black;
+  padding: 10px;
+  margin: 10px;
+  border:solid 2px red;
+}
+
+.box3{
+  width:31%;
+  height:250px;
+  background:black;
+  padding: 10px;
+  margin: 10px;
+  border:solid 2px red;
+  
+}
+}
+
+
